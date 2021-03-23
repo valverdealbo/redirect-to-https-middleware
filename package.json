@@ -1,6 +1,6 @@
 {
   "name": "@valbo/redirect-to-https-middleware",
-  "version": "",
+  "version": "1.0.0",
   "description": "Express middleware that redirects HTTP to HTTPS",
   "keywords": [
     "express",
