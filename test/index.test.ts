@@ -1,4 +1,5 @@
-import { Request, Response } from 'express';
+// eslint-disable-next-line import/no-unresolved
+import type { Request, Response } from 'express';
 import { redirectToHttpsMiddleware } from '../src';
 
 describe('httpsRedirect()', () => {

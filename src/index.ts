@@ -1,4 +1,5 @@
-import { Request, Response, NextFunction } from 'express';
+// eslint-disable-next-line import/no-unresolved
+import type { Request, Response, NextFunction } from 'express';
 
 export function redirectToHttpsMiddleware(request: Request, response: Response, next: NextFunction): void {
   const { protocol, hostname, url } = request;
